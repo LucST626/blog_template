@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: serif;
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    border: 1px solid;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    height: auto;
+    width: 50%;
+}
+
+.container * { 
+    line-height: 2rem;
+}
+
+.container ul, ol   {
+    list-style-position: inside;
+}
+.container a {
+    text-decoration: none;
+    color: black;
+}
+.container a:hover{
+    color: brown;
+    font-size: larger;
+}
+
+.container h1{
+    font-size: 2rem;
+}
+
+.container img{
+    width: 100%;
+}
