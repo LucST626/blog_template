@@ -18,9 +18,9 @@ body{
 .container{
     border: 1px solid;
     margin: 2rem 0;
-    padding: 1rem 2rem;
+    padding: 0 200px;
     height: auto;
-    width: 50%;
+    width: 100%;
 }
 
 .container * { 
@@ -45,4 +45,32 @@ body{
 
 .container img{
     width: 100%;
+}
+
+.container img + p{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.right ul{
+    display: flex;
+    gap: 2rem;
+    background: hotpink;
+}
+li{
+    list-style: none;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background: hotpink;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 0;
+    
+}
+nav div{
+    margin: 0 3rem;
 }
